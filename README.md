@@ -1,0 +1,1 @@
+# sampoorna-wp-theme
