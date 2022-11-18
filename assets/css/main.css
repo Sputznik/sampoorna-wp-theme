@@ -426,21 +426,25 @@ ul.slick-dots li button:hover, ul.slick-dots li.slick-active button{ background:
   }
 
   /* FADE-IN SLIDER */
-  .smpn-fadein-slider,
-  .smpn-fadein-slider .item {
+  .smpn-fadein-slider-vertical,
+  .smpn-fadein-slider-vertical .item {
     display: flex;
     align-items: center;
   }
 
-  .smpn-fadein-slider .item {
+  .smpn-fadein-slider-vertical .item {
     min-height: 150px;
   }
 
-  .smpn-fadein-slider .slick-dots {
+  .smpn-fadein-slider-vertical .slick-dots {
     padding-left: 40px;
     margin: 0;
     display: flex;
     flex-direction: column;
+  }
+
+  .smpn-fadein-slider-horizontal .slick-dots {
+    margin-left: -3px;
   }
 
   /* GRADIENT TABS */

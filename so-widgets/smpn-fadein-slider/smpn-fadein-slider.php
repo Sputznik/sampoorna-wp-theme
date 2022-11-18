@@ -39,7 +39,16 @@ class SMPN_FADEIN_SLIDER extends SiteOrigin_Widget {
 			        'default_editor' => 'html'
 				    )
 					)
-				)
+				),
+				'layout' => array(
+          'type' => 'select',
+          'label' => __( 'Choose a Layout', 'siteorigin-widgets' ),
+          'default' => 'vertical',
+          'options' => array(
+						'vertical' 		=> 'Vertical',
+						'horizontal'	=> 'Horizontal'
+					)
+        )
 			),
 			//The $base_folder path string.
 			get_template_directory()."/so-widgets/smpn-fadein-slider"
